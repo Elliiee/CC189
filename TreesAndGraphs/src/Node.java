@@ -2,6 +2,7 @@ public class Node {
     private Node[] adjacent;
     public int adjacentCount;
     private String vertex;
+    public _4_1.State state;
 
     public Node(String vertex, int adjacentLength){
         this.vertex = vertex;
